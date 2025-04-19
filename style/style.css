@@ -1,0 +1,176 @@
+*{
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+#header-title{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+nav,footer, .header-links{
+    display: flex;
+    background-color: #1F2937;
+}
+
+
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+    
+
+.header-links{
+    display: flex;
+    gap: 50px;
+}
+
+.links,#hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.principal{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+
+#principal-img-container{
+    width: 3000px;
+    height: 600px;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+#principal-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main-img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+#middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+#info-images{
+    display: flex;
+    gap: 40px;
+}
+
+.middle-image{
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+
+#article-content{
+    width: 500px;
+}
+
+#article-text{
+    float: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#article-autor{
+    float: right;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+article{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+#call-to-action{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#call-to-action-container{
+    background-color: #3882f6;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#call-to-action-right{
+    padding: 30px;
+}
+
+
+.call-to-action-align{    
+    padding: 100px;
+}
+
+#call-to-action-justify > p,#call-to-action-justify > h4{
+    margin:0;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+}
+
+.sign{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color:white;
+}
+
+#principal-link{
+    padding:20px;
+    max-width: 100px;
+    text-align: center;
+}
+
+#call-to-action-link{
+    padding: 10px;
+    border: 2px solid #E5E7EB;
+}
